@@ -1,0 +1,44 @@
+
+body {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#activityButtons {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+button {
+  background-color: lightyellow;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#activity-form {
+  background-color: lightgreen;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 20px;
+}
+
+#addActivity {
+  background-color: orange;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+
+label {
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+}
+
+#activities {
+  background-color: yellow;
+}
