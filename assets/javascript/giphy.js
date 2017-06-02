@@ -57,7 +57,7 @@ $(document).ready(function(){
 
     // then we're setting variables that grab the attribute of the clicked button (type) and how to make the query string (queryURL).
     var type = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&limit=10" + "&api_key=dc6zaTOxFJmzC";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + type + "&limit=10" + "&api_key=dc6zaTOxFJmzC";
 
     // and now, placing the Giphy API call using the Get method:
     $.ajax({
